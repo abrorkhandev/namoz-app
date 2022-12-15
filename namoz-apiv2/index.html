@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namoz Vaqtlari</title>
+</head>
+
+<h1 class="heading">Namoz Vaqtlari</h1>
+
+<div class="general-container">
+    <div class="enter-container">
+        <label  class="box" for="inp">Kerakli hududni kiriting:</label>
+        <input  class="box" type="text" name="inp" class="inp" id="inp" placeholder="Hududni kiriting">
+        <button class="box"  id="btn" type="submit">Yuborish</button>
+    </div>
+    
+    <div class="alert-container">
+
+    </div>
+
+    <div class="result">
+        <h2 id="region">Nomalum hudud</h2>
+        <h3 class="weakday" id="date"></h3>
+        <h3 class="weakday" id="weekday"></h3>
+        <div class="box-container">
+            <div class="box bomdod">
+                <h1>Tong</h1>
+                <img src="./img/Tong.png" alt="">
+                <h2 id="tong-time">00:00</h2>
+            </div>
+            <div class="box">
+                <h1>Quyosh</h1>
+                <img src="./img/Quyosh.png" alt="">
+                <h2 id="quyoshtime">00:00</h2>
+            </div>
+            <div class="box">
+                <h1>Peshin</h1>
+                <img src="./img/Peshin.png" alt="">
+                <h2 id="peshin">00:00</h2>
+            </div>
+            <div class="box">
+                <h1>Asr</h1>
+                <img src="./img/Asr.png" alt="">
+                <h2 id="asr">00:00</h2>
+            </div>
+            <div class="box">
+                <h1>Shom</h1>
+                <img src="./img/Shom.png" alt="">
+                <h2 id="shom">00:00</h2>
+            </div>
+            <div class="box">
+                <h1>Xufton</h1>
+                <img src="./img/Xufton.png" alt="">
+                <h2 id="xufton">00:00</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script src="app.js"></script>
+</body>
+
+</html>

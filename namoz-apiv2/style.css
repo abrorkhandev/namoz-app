@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    font-family: "Montserrat", serif, sans-serif;
+    /* font-family: "Jost", sans-serif; */
+    transition: .5s all;
+}
+
+i{
+    color: #fff;
+    padding: 1rem;
+    font-size: 7rem;
+}
+
+body{
+    background: url(img/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh 100vw cover;
+    /* background-position:center ; */
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 50px;
+}
+
+.general-container{
+    position: relative;
+    top: 90px;
+    max-width: 1068px;
+    margin: auto;
+    width: 90%;    
+    color:var(--light-color);
+    background-color: rgba(0, 0, 0, 0.479);
+    color: #fff;
+    text-align: center;
+}
+
+.general-container .enter-container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem));
+    gap: 1rem;
+}
+
+/* .general-container .enter-container .box:nth-child(3){
+    text-align: center;
+    position: relative;
+} */
+
+.general-container .enter-container input{
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    text-transform: capitalize;
+}
+
+.general-container .enter-container button{
+    padding: .5rem;
+    background-color: rgba(255, 255, 0, 0.411);
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1em;
+}
+
+.general-container .enter-container button:hover{
+    background-color: rgba(255, 255, 0, 0.274);
+}
+
+.general-container .alert-container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem));
+    gap: 1rem;
+}
+
+.general-container .enter-container .alert-info{
+    color: red;
+}
+
+.general-container .result #region{
+    padding: 1rem;
+}
+
+.general-container .result .box-container{
+    /* padding: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(20rem , 1fr));
+    gap: .5rem;
+    font-size: .5rem;
+}
+
+.general-container .result .box-container .box{
+    /* border: 1px solid red; */
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    /* margin: 1rem; */
+}
+
+.general-container .result .box-container .box h1 , h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.general-container .result .box-container .box img{
+    width: 250px;
+}
+
+.weakday{
+    margin: 1rem;
+    padding: 1rem;
+}
